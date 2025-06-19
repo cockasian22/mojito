@@ -37,6 +37,13 @@ mojito path/to/file.txt [interval] [options]
 | `--no-timestamps`  | Hide change timestamps               | Enabled |
 | `[interval]`       | Polling interval in seconds          | 1.0     |
 
+## Log to file
+
+Just use the standart stdout to file
+```bash
+mojito path/to/file.txt > mojito.log
+```
+
 ### Examples
 ```bash
 # Basic usage
